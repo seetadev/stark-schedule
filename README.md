@@ -169,3 +169,13 @@ To know more about its features, check out our [website](https://scaffoldstark.c
 We welcome contributions to Scaffold-Stark 2!
 
 Please see [CONTRIBUTING.MD](https://github.com/Quantum3-Labs/scaffold-stark-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-Stark 2.
+
+
+## How to run Qr code app 
+
+[qr-code](https://beige-royal-slug-524.mypinata.cloud/ipfs/QmRtxL7ctunTXQGsQfymJCs3C1xAjrRjuL9H1q81KCExSZ?pinataGatewayToken=e6vJ4oXa8yREy_ZI1ur2ELVB-BnJMRRUabm6gdLEgiyjVHaf_aSz44fyDvFR5r7W)
+
+
+1. Go to qr-scanner router 
+2. scan qr code 
+3. you will redirected to medical incident page
