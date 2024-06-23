@@ -17,10 +17,6 @@ Features:
 Each patient can opt to join the DAO and the DAO smart contract will utilize the metadata from the NFT to charge each user according to risk and at the end of a specified block, the DAO will pay distribute rewards that quarter in an airdrop.
 
 
-Argent wallet supports operations like sending DAI and USDC payment amounts, zk signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability.
-
-
-
 # How we built it
 
 
