@@ -76,6 +76,32 @@ Benefits to patients, administrator and insurers:
 
 
 
+## Argent
+
+We are developing a PWA for Medication Log and Schedule with Argent wallet, which supports operations like sending STRK and Eth payment amounts, zk signing of the transaction and other cryptographic operations like NFT transfer across multiple platforms and Starknet based blockchains that improve the overall usability and interoperability. 
+We are integrating Starknet's ZK features with Argent wallet that seamlessly works across key Starknet L2 tokens and leverages Zero Knowledge Proofs for Crypto-transactions and Identity proofs. 
+
+Please visit Demo, Screenshots and Screencasts at  https://drive.google.com/drive/u/1/folders/189UF3LU8J638stH_tz_Ru_R2iiwB0h2p
+
+Argent’s Multisig: Automated Workflow for decentralized voting for medical service providers and DAOs in a scalable manner using Argent’s Multisig, Starkware's StarkEx L2 engine, Voyager, DID on Starknet:
+
+DAOs create a RFP for providing medical service or medical device maintenance on the dapp.
+
+Doctor can join a RFP by minting an NFT of that RFP. This NFT is created on-chain on Starknet.
+
+Doctors that have a certain RFP's NFT are eligible to create proposals and vote on them.
+
+Voting is gasless and the vote is stored on Starknet with the most recent vote linking to one before using DID.
+
+Each patient can opt to join the DAO and the DAO smart contract will utilize the metadata from the NFT to charge each user according to risk and at the end of a specified block, the DAO will distribute rewards that quarter in an airdrop.
+
+Medication Suite PWA with Argent wallet enables personalized care treatment by enabling administrators and insurers:
+1. Connect all stakeholders using Argent wallet and Starkware's StarkEx, custom zk rollapps, low code medical analytics and validation tools on Starknet. 
+2. Personalize care treatment.
+3. Accurate and timely payments.
+4. Reduce the cost of decentralized systems by Layer 2 Scaling.
+
+
 ## Starknet Foundation
 
 We are developing tools to enable tracing, monitoring and recording of medication log, dosage schedules and blood sugar levels for a diabetes patient using Starknet and its Web3 eco-system tools. We are further enabling the healthcare community & the medical eco-system to do medical counseling in case of emergency incidents, securely, and transparently on Starknet, thereby empowering the diabetic patients. 
@@ -115,31 +141,28 @@ https://sepolia.voyager.online/contract/0x033b159ceA5C3Ec0A677cE68ACBA58813Aee53
 https://sepolia.starkscan.co/contract/0x045ef38e7c2a57ed6374068c2de30c0861c129cdade8762b2c60dfa3d1857ec8
 
 
-## Argent
 
-We are developing a PWA for Medication Log and Schedule with Argent wallet, which supports operations like sending STRK and Eth payment amounts, zk signing of the transaction and other cryptographic operations like NFT transfer across multiple platforms and Starknet based blockchains that improve the overall usability and interoperability. 
-We are integrating Starknet's ZK features with Argent wallet that seamlessly works across key Starknet L2 tokens and leverages Zero Knowledge Proofs for Crypto-transactions and Identity proofs. 
+## Dynamic SDK 
 
-Please visit Demo, Screenshots and Screencasts at  https://drive.google.com/drive/u/1/folders/189UF3LU8J638stH_tz_Ru_R2iiwB0h2p
+We are using Dynamic SDKs to enable onboarding of Web2 users in Stark Schedule project. Integrating with Dynamic enables Web2 -> Web3 transition,  cryptographic operations
+support across multiple platforms and Eth based blockchains that improve the overall usability and interoperability. 
 
-Argent’s Multisig: Automated Workflow for decentralized voting for medical service providers and DAOs in a scalable manner using Argent’s Multisig, Starkware's StarkEx L2 engine, Voyager, DID on Starknet:
+Please visit the demo, screenshots and details at https://drive.google.com/drive/u/1/folders/1aD4XMvbUpnddJnKhfH375_ohiDFb3gk1
 
-DAOs create a RFP for providing medical service or medical device maintenance on the dapp.
+Initial Deployment using Dynamic tutorial: https://dynamic-stark-schedule-dapp.vercel.app/
 
-Doctor can join a RFP by minting an NFT of that RFP. This NFT is created on-chain on Starknet.
 
-Doctors that have a certain RFP's NFT are eligible to create proposals and vote on them.
+# Herodotus
 
-Voting is gasless and the vote is stored on Starknet with the most recent vote linking to one before using DID.
+We are using Herodotus’s Storage Proof API to enable patients to prove ownership of Medical Incident NFT they hold on Starknet using storage proofs. The Herodotus API is used to generate the needed storage proof and verify it on Starknet. 
 
-Each patient can opt to join the DAO and the DAO smart contract will utilize the metadata from the NFT to charge each user according to risk and at the end of a specified block, the DAO will distribute rewards that quarter in an airdrop.
+Herodotus’s Storage Proof API a service aims at providing:
+■ Secure data storage, transparent data movement and data authenticity.
+■ Improving Data Transparency in Medication
 
-Medication Suite PWA with Argent wallet enables personalized care treatment by enabling administrators and insurers:
-1. Connect all stakeholders using Argent wallet and Starkware's StarkEx, custom zk rollapps, low code medical analytics and validation tools on Starknet. 
-2. Personalize care treatment.
-3. Accurate and timely payments.
-4. Reduce the cost of decentralized systems by Layer 2 Scaling.
+Data Integrity and Responsible AIOps using Herodotus’s Storage Proof API: We are extending the implementation of Herodotus’s Storage Proof API to verify data integrity and prioritize the ranking of actions (assigned, not assigned, in progress and completed) at the government hospital to be undertaken on medical incidents depending upon the status (pending, in progress and completed). We are developing custom Web3 storage and data analytics solutions using Herodotus and tools to enable no code, low code analytics tooling using an open source analytics and visualization tool, namely, HerodotusXLS, which enables tabulation, organization, collaboration, visualization, graphing and charting.
 
+Please visit Demo, Screenshots and Screencasts at  https://drive.google.com/drive/u/1/folders/1jkIPsjj9zyy7SQ0Yp5pYwlca5a4ykqqZ
 
 
 
