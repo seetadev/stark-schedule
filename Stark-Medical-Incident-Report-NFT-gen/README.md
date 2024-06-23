@@ -44,17 +44,9 @@ Benefits to patients, administrator and insurers:
 
 ⚙️ Built using NextJS, Starknet.js, Scarb, Starknet-React, Starknet Foundry and Typescript.
 
-- ✅ **Contract Fast Reload**: Your frontend auto-adapts to your smart contracts as you deploy them.
-- 🪝 [**Custom hooks**](https://www.docs.scaffoldstark.com/hooks/): Collection of React hooks wrapper around [starknet-react](https://starknet-react.com/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**](https://www.docs.scaffoldstark.com/components): Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Prefunded Account**: Quickly test your application with a burner wallet and prefunded accounts.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with Starknet network.
+## Implementation and Requirements
 
-![Debug Contracts tab](./assests/debug-contracts.png)
-
-## Requirements
-
-Before you begin, you need to install the following tools:
+We need to install the following tools:
 
 - [Node (>= v18.17)](https://nodejs.org/en/download/)
 - Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
