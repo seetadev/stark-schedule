@@ -1,12 +1,44 @@
-# starknet-incident
-incident dapp on starknet
+# Starkware and Starknet Foundation
+
+We are developing tools to enable tracing, monitoring and recording of medication log, blood sugar chart levels, medical work orders and invoices in a scalable manner across an entire supply chain for efficiency and sustainability and benefit the entire medical eco-system using Starkware's StarkEx L2 engine, custom zk rollapps, low code medical analytics and validation tools on Starknet. 
+
+Demo, Screenshots and Screencasts at https://drive.google.com/drive/u/1/folders/18c80EvryJSkncQYRhmKWPlOd-oWLgufX
+
+Usage of Scaffold Stark and Starkware's StarkEx L2 engine: https://github.com/seetadev/stark-schedule/tree/main/Stark-Medical-Incident-Report-NFT-gen
+
+Automated Workflow for decentralized voting for medical service providers and DAOs in a scalable manner using Starkware's StarkEx L2 engine, Voyager, DID on Starknet:
+
+DAOs create a RFP for providing medical service or medical device maintenance on the dapp.
+
+Doctor can join a RFP by minting an NFT of that RFP. This NFT is created on-chain on Starknet.
+
+Doctors that have a certain RFP's NFT are eligible to create proposals and vote on them.
+
+Voting is gasless and the vote is stored on Starknet with the most recent vote linking to one before using DID.
+
+Each patient can opt to join the DAO and the DAO smart contract will utilize the metadata from the NFT to charge each user according to risk and at the end of a specified block, the DAO will distribute rewards that quarter in an airdrop.
+
+References: 
+
+Low code dapp tooling: https://github.com/seetadev/stark-schedule/tree/main/Stark-Medical-Incident-Report-NFT-gen/starknet-voyager-dynamic
+
+Transaction Links: 
+
+https://sepolia.voyager.online/contract/0x033b159ceA5C3Ec0A677cE68ACBA58813Aee53f9455aE36A68bCEeD74749e935#code
+
+https://sepolia.starkscan.co/contract/0x045ef38e7c2a57ed6374068c2de30c0861c129cdade8762b2c60dfa3d1857ec8
+
+We are developing custom Web3 storage and data analytics solutions using Herodotus and tools to enable no code, low code analytics tooling using an open source analytics and visualization tool, which enables tabulation, organization, collaboration, visualization, graphing and charting. Please visit https://github.com/seetadev/stark-schedule/tree/main/Stark-Medical-Incident-Report-NFT-gen/starknet-voyager-dynamic
+
+Benefits to patients, administrator and insurers:
+1. Connect all medical stakeholders using Starkware's StarkEx, custom zk rollapps, low code medical analytics and validation tools on Starknet. 
+2. Personalize care treatment.
+3. Accurate and timely payments.
+4. Reduce the cost of decentralized systems by Layer 2 Scaling.
+
 
 # 🏗 Scaffold-Stark 2
 
-<h4 align="center">
-  <a href="https://www.docs.scaffoldstark.com/">Documentation</a> |
-  <a href="https://www.scaffoldstark.com/">Website</a>
-</h4>
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on Starknet blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
