@@ -1,0 +1,16 @@
+.typewriter {
+  border-right: 2px solid black;
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre;
+  overflow: hidden;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typewriter {
+  animation: blink 1s step-end infinite;
+}

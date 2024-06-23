@@ -1,0 +1,128 @@
+.mint-button {
+  color: white;
+  --dynamic-info-2: rgba(71, 121, 255, 0.1);
+  --dynamic-button-border-radius: 0.75rem;
+  --rem: 16;
+  --dynamic-font-family-primary: "DM Sans", sans-serif;
+  --dynamic-search-border-radius: 1rem;
+  --dynamic-font-family-numbers: "Roboto Mono", monospace, sans-serif;
+  --dynamic-base-1: #0c0e13;
+  --dynamic-base-2: #1b1d22;
+  --dynamic-base-3: #24272e;
+  --dynamic-base-4: #282b33;
+  --dynamic-brand-hover-color: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.08),
+      rgba(0, 0, 0, 0.08)
+    ),
+    #4779ff;
+  --dynamic-brand-secondary-color: rgba(71, 121, 255, 0.15);
+  --dynamic-success-1: #79ffcf;
+  --dynamic-success-2: #192d2c;
+  --dynamic-border-radius: 1.5rem;
+  --dynamic-hover: hsla(0, 0%, 100%, 0.1);
+  --dynamic-error-1: #ff6a6a;
+  --dynamic-error-2: hsla(0, 100%, 71%, 0.2);
+  --dynamic-alert-1: #e2a140;
+  --dynamic-alert-2: #2b2621;
+  --dynamic-loading-animation-gradient: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0),
+    hsla(0, 0%, 100%, 0.01) 20%,
+    hsla(0, 0%, 100%, 0.05) 60%,
+    hsla(0, 0%, 100%, 0)
+  );
+  --dynamic-overlay: rgba(0, 0, 0, 0.25);
+  --dynamic-shadow-down-1: 0 0.0625rem 0.125rem rgba(24, 39, 75, 0.04);
+  --dynamic-shadow-down-2: 0 0.75rem 1.25rem -0.375rem rgba(24, 39, 75, 0.02),
+    0 1rem 1.625rem -0.25rem rgba(24, 39, 75, 0.04);
+  --dynamic-shadow-down-3: 0 1.5rem 2rem -1.5rem rgba(0, 0, 0, 0.24);
+  --dynamic-shadow-up-1: 0 -0.5rem 3rem -0.5rem rgba(109, 121, 165, 0.16);
+  --dynamic-text-link: #69a5ff;
+  --dynamic-text-primary: #fbfcff;
+  --dynamic-text-secondary: #a8aab0;
+  --dynamic-text-size-body-mini: 0.6875rem;
+  --dynamic-text-size-body-normal: 0.9375rem;
+  --dynamic-text-size-body-small: 0.75rem;
+  --dynamic-text-size-button-primary: 0.875rem;
+  --dynamic-text-size-button-secondary: 0.75rem;
+  --dynamic-text-size-numbers-big: 0.875rem;
+  --dynamic-text-size-numbers-medium: 0.75rem;
+  --dynamic-text-size-title: 1.125rem;
+  --dynamic-text-tertiary: #6f7177;
+  --dynamic-badge-background: #24272e;
+  --dynamic-badge-color: #a8aab0;
+  --dynamic-search-bar-background: #1b1d22;
+  --dynamic-search-bar-background-hover: #1b1d22;
+  --dynamic-search-bar-background-focus: #1b1d22;
+  --dynamic-search-bar-border: 0.0625rem solid #24272e;
+  --dynamic-search-bar-border-hover: 0.0625rem solid #282b33;
+  --dynamic-search-bar-border-focus: 0.0625rem solid #282b33;
+  --dynamic-modal-border: ;
+  --dynamic-modal-width: 22.5rem;
+  --dynamic-modal-padding: 1.5rem;
+  --dynamic-modal-backdrop-background: rgba(0, 0, 0, 0.25);
+  --dynamic-wallet-list-tile-padding: 0.75rem;
+  --dynamic-wallet-list-tile-gap: 0.375rem;
+  --dynamic-wallet-list-max-height: 16.25rem;
+  --dynamic-wallet-list-tile-background: #24272e;
+  --dynamic-wallet-list-tile-border: ;
+  --dynamic-wallet-list-tile-shadow: 0 0.0625rem 0.125rem rgba(24, 39, 75, 0.04);
+  --dynamic-wallet-list-tile-background-hover: #282b33;
+  --dynamic-wallet-list-tile-border-hover: ;
+  --dynamic-wallet-list-tile-border-radius: 0.75rem;
+  --dynamic-wallet-list-tile-shadow-hover: 0 0.75rem 1.25rem -0.375rem rgba(24, 39, 75, 0.02),
+    0 1rem 1.625rem -0.25rem rgba(24, 39, 75, 0.04);
+  --dynamic-wallet-list-tile-animation-duration: 150ms;
+  --dynamic-tooltip-color: #fbfcff;
+  --dynamic-tooltip-text-color: #0c0e13;
+  --dynamic-initial-view-content-padding: 0rem 1.5rem 1.5rem;
+  --dynamic-button-primary-hover: #1b1d22;
+  --dynamic-button-primary-background: #1b1d22;
+  --dynamic-button-primary-font-size: 0.875rem;
+  --dynamic-button-primary-padding: 0;
+  --dynamic-button-primary-border: 0.0625rem solid #282b33;
+  --dynamic-button-shadow: 0px 2px 3px 0px rgba(24, 39, 75, 0.08);
+  --dynamic-button-secondary-hover: #1a1c21;
+  --dynamic-button-secondary-background: transparent;
+  --dynamic-button-secondary-font-size: 0.75rem;
+  --dynamic-button-secondary-padding: 0;
+  --dynamic-button-secondary-border: 0.0625rem solid transparent;
+  --dynamic-search-padding: 0 1.5rem 0.5rem;
+  --dynamic-layout-content-padding: 0 1.5rem 1.5rem;
+  --dynamic-layout-content-error-padding: 1.5rem 1.5rem 1.5rem;
+  --dynamic-footer-border-top: 0.0625rem solid #282b33;
+  --dynamic-footer-padding: 0.75rem 1.5rem 0.75rem;
+  --dynamic-footer-background: transparent;
+  --dynamic-header-border-bottom: 1px solid transparent;
+  --dynamic-header-padding: 1.5rem 1.5rem 1.25rem;
+  --dynamic-header-background: transparent;
+  --dynamic-footer-text-color: #fbfcff;
+  --dynamic-footer-icon-color: rgba(247, 247, 249, 0.75);
+  --dynamic-footer-arrow-color: rgba(247, 247, 249, 0.75);
+  -webkit-font-smoothing: antialiased;
+  --dynamic-modal-backdrop-filter: none;
+  --dynamic-brand-primary-color: #4779ff;
+  --dynamic-badge-dot-background: #4779ff;
+  --dynamic-footer-background-color: #4779ff;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: 0;
+  text-transform: none;
+  appearance: button;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 0.375rem;
+  justify-content: center;
+  position: relative;
+  transition: all 0.2s ease;
+  box-shadow: var(--dynamic-shadow-down-1);
+  background: var(--dynamic-button-primary-background);
+  border: var(--dynamic-button-primary-border);
+  border-radius: var(--dynamic-button-border-radius);
+  padding: 0.875rem 1.25rem;
+}
