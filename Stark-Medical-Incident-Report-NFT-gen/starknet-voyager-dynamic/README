@@ -8,3 +8,17 @@ Please visit demo and screenshots at https://drive.google.com/drive/u/1/folders/
 Voyager link: https://sepolia.voyager.online/contract/0x033b159ceA5C3Ec0A677cE68ACBA58813Aee53f9455aE36A68bCEeD74749e935#code
 
 AIOps using Voyager API: We are extending the implementation of Voyager API to prioritize the ranking of actions (assignment, not assigned) at clinics, government hospitals to be undertaken on medical incidents depending upon the status (pending, in progress and completed).
+
+
+# Dynamic SDK
+
+We are using Dynamic SDKs to enable onboarding of Web2 users in Stark Schedule project. Integrating with Dynamic enables Web2 -> Web3 transition,  cryptographic operations
+support across multiple platforms and Eth based blockchains that improve the overall usability and interoperability. 
+
+Please visit the demo, screenshots and details at https://drive.google.com/drive/u/1/folders/1aD4XMvbUpnddJnKhfH375_ohiDFb3gk1
+
+Deployment of dapp using Dynamic tutorial: please visit https://web3-incident-dapp-54ym.vercel.app/ 
+
+Initial Deployment using Dynamic tutorial: https://dynamic-stark-schedule-dapp.vercel.app/
+
+Screenshots at https://drive.google.com/drive/u/1/folders/1aD4XMvbUpnddJnKhfH375_ohiDFb3gk1
