@@ -1,3 +1,5 @@
+# STRK Schedule
+
 Web3 tools for patients to enable management of diabetes easily by keeping a track of  blood sugar along with meals and exercise using Starknet, Voyager, Dynamic SDKs and Starknet ecosystem tools.
 
 Further, the dapp uses verified medical incident data to mint NFTs on Voyager for users that will store an image and the insurance metadata, as well as a calculated diabetes score for the patients using Starknet and Argent Mobile. 
