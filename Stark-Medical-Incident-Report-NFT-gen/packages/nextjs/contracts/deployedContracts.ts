@@ -7,7 +7,7 @@ const deployedContracts = {
   devnet: {
     YourContract: {
       address:
-        "0x002c6feb60285d8aafedc4886a89197e649e2e1c5e149575d8f6598397702c32",
+        "0x0259b803c8ce3a0a2353d3b325375a9777f11de2ef9f71032bf0e81ebd7a6333",
       abi: [
         {
           type: "impl",
@@ -77,7 +77,7 @@ const deployedContracts = {
             },
             {
               type: "function",
-              name: "set_gretting",
+              name: "set_gretting_new",
               inputs: [
                 {
                   name: "new_greeting",
@@ -108,6 +108,18 @@ const deployedContracts = {
                 },
               ],
               state_mutability: "view",
+            },
+            {
+              type: "function",
+              name: "dontate_this_contract",
+              inputs: [
+                {
+                  name: "amount",
+                  type: "core::integer::u256",
+                },
+              ],
+              outputs: [],
+              state_mutability: "external",
             },
           ],
         },
@@ -263,7 +275,7 @@ const deployedContracts = {
   sepolia: {
     YourContract: {
       address:
-        "0x01e4c0884bfbe2f7401a73499b86ae39a7f55279db05546fdced4e6b2a4a5332",
+        "0x04c435cee93c906abac924e84cc18203de62282b1e811085ea2d2ee6156789d6",
       abi: [
         {
           type: "impl",
@@ -333,7 +345,7 @@ const deployedContracts = {
             },
             {
               type: "function",
-              name: "set_gretting",
+              name: "set_gretting_new",
               inputs: [
                 {
                   name: "new_greeting",
@@ -364,6 +376,18 @@ const deployedContracts = {
                 },
               ],
               state_mutability: "view",
+            },
+            {
+              type: "function",
+              name: "dontate_this_contract",
+              inputs: [
+                {
+                  name: "amount",
+                  type: "core::integer::u256",
+                },
+              ],
+              outputs: [],
+              state_mutability: "external",
             },
           ],
         },
