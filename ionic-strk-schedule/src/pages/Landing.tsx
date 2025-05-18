@@ -1,4 +1,6 @@
 // import WalletBar from "@/components/layout/WalletBar";
+import { useAuthContext } from "@/auth/useAuthContext";
+import { useIsUserRegistered } from "@/hooks/contractRead";
 import {
   IonPage,
   IonContent,
@@ -13,6 +15,7 @@ import {
   IonCardContent,
   // useIonRouter,
 } from "@ionic/react";
+import { useAccount } from "@starknet-react/core";
 import React, { lazy, Suspense, useEffect } from "react";
 // import { useIsUserRegistered } from "@/hooks/contractRead";
 // import { useAccount } from "@starknet-react/core";
@@ -45,7 +48,16 @@ const Landing = () => {
   //     // If isRegistered is undefined, we're still waiting for data or no wallet connected
   //   }
   // }, [isRegistered, isLoading, status, router, isError]);
-
+  const { address } = useAccount();
+  const { login } = useAuthContext();
+  const { isRegistered } = useIsUserRegistered({ accountAddress: address });
+  // Get register function from our custom hook
+  useEffect(() => {
+    if (isRegistered) {
+      console.log("User is registered", isRegistered);
+      login();
+    }
+  }, [isRegistered, login]);
   useEffect(() => {
     console.log("Landing component rendered");
   }, []);

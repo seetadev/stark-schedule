@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <title>Ionic App</title>
-    
+
     <base href="/" />
-    
+
     <meta name="color-scheme" content="light dark" />
     <meta
       name="viewport"
@@ -13,15 +13,31 @@
     />
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
-    
+
     <link rel="manifest" href="/manifest.json" />
-    
+
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-    
+
     <!-- add to homescreen for ios -->
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Ionic App" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <script>
+      // Single Page Apps for GitHub Pages/Vercel
+      (function() {
+        // If no path or just "/" was specified, don't do any special handling
+        if (location.search === '' || location.pathname === '/') return;
+
+        // Look for a redirect parameter in the URL
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+
+        // If we have a saved redirect, go there
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

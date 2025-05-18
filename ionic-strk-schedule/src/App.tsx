@@ -27,7 +27,6 @@ import {
   home,
   analytics,
   medkit,
-  documentText,
   barbellOutline,
 } from "ionicons/icons";
 
