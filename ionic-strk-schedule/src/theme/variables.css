@@ -1,0 +1,74 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+/* App.css or variables.css */
+/* Add to src/theme/variables.css or your custom CSS file */
+ion-tabs {
+  overflow: visible !important;
+  contain: none !important;
+}
+
+ion-tab-bar {
+  overflow: visible !important;
+  contain: none !important;
+}
+
+.add-tab-button::part(native) {
+  overflow: visible !important;
+  contain: none !important;
+}
+
+/* Fix to ensure the base height doesn't cut the button */
+ion-tab-button {
+  min-height: 56px;
+}
+/* Add to your global CSS or component styles */
+.calendar-modal {
+  --width: 350px;
+  --height: 420px;
+  --border-radius: 16px;
+}
+
+/* Ensure the date circle indicators are visible */
+.calendar-modal ion-datetime {
+  --background: transparent;
+}
+
+/* Custom Radio Button Styling */
+.radio-group-container {
+  padding: 16px;
+}
+
+.custom-radio-group {
+  margin-bottom: 16px;
+}
+
+.group-label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.radio-options {
+  padding-left: 8px;
+}
+
+.custom-radio-item {
+  --padding-start: 0;
+  --inner-padding-end: 0;
+  --min-height: 40px;
+  margin-bottom: 8px;
+}
+
+.radio-label {
+  font-size: 16px;
+  margin-left: 8px;
+  white-space: normal;
+}
+
+/* Ensure radio buttons have proper size */
+ion-radio {
+  width: 20px;
+  height: 20px;
+  --color-checked: var(--ion-color-primary);
+}
