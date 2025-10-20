@@ -3,9 +3,10 @@ use starknet::ContractAddress;
 #[starknet::interface]
 pub trait IYourContract<TContractState> {
     fn gretting(self: @TContractState) -> ByteArray;
-    fn set_gretting(ref self: TContractState, new_greeting: ByteArray, amount_eth: u256);
+    fn set_gretting_new(ref self: TContractState, new_greeting: ByteArray, amount_eth: u256);
     fn withdraw(ref self: TContractState);
     fn premium(self: @TContractState) -> bool;
+    fn dontate_this_contract(ref self : TContractState, amount:u256);
 }
 
 #[starknet::contract]
@@ -67,7 +68,7 @@ mod YourContract {
         fn gretting(self: @ContractState) -> ByteArray {
             self.greeting.read()
         }
-        fn set_gretting(ref self: ContractState, new_greeting: ByteArray, amount_eth: u256) {
+        fn set_gretting_new(ref self: ContractState, new_greeting: ByteArray, amount_eth: u256) {
             self.greeting.write(new_greeting);
             self.total_counter.write(self.total_counter.read() + 1);
             let user_counter = self.user_gretting_counter.read(get_caller_address());
@@ -100,6 +101,10 @@ mod YourContract {
         }
         fn premium(self: @ContractState) -> bool {
             self.premium.read()
+        }
+
+        fn dontate_this_contract(ref self:ContractState, amount:u256){
+            self.eth_token.read().transferFrom(get_caller_address(), get_contract_address(), amount);
         }
     }
 }
