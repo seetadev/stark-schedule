@@ -1,7 +1,0 @@
-{
-  "name": "stark-schedule",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
-}
